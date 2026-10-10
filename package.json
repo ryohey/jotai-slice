@@ -1,6 +1,6 @@
 {
   "name": "jotai-slice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Group jotai atoms and actions into a slice, and read only what you destructure",
   "license": "MIT",
   "author": "ryohey",
