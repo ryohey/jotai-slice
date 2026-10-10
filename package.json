@@ -11,7 +11,7 @@
   "keywords": ["jotai", "react", "state", "atom", "slice"],
   "type": "module",
   "sideEffects": false,
-  "files": ["dist"],
+  "files": ["dist", "src"],
   "exports": {
     "./package.json": "./package.json",
     ".": {
