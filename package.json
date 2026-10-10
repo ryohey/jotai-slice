@@ -8,10 +8,19 @@
     "type": "git",
     "url": "git+https://github.com/ryohey/jotai-slice.git"
   },
-  "keywords": ["jotai", "react", "state", "atom", "slice"],
+  "keywords": [
+    "jotai",
+    "react",
+    "state",
+    "atom",
+    "slice"
+  ],
   "type": "module",
   "sideEffects": false,
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "exports": {
     "./package.json": "./package.json",
     ".": {
@@ -45,8 +54,8 @@
   "devDependencies": {
     "@testing-library/react": "16.3.2",
     "@types/react": "19.2.14",
+    "happy-dom": "20.14.6",
     "jotai": "2.18.0",
-    "jsdom": "28.1.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "typescript": "6.0.3",
