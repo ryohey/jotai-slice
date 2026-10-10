@@ -24,5 +24,6 @@ jobs:
         run: test "v$(node -p 'require("./package.json").version')" = "$GITHUB_REF_NAME"
       - run: pnpm typecheck
       - run: pnpm test
-      # Authenticates with npm trusted publishing (OIDC)
-      - run: npm publish --provenance --access public
+      # Stages the release with npm trusted publishing (OIDC). A maintainer
+      # approves it with 2FA (`npm stage approve`) to publish it.
+      - run: npx -y npm@11.19.0 stage publish --provenance --access public
